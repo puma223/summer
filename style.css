@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    padding: 40px;
+    background-color: antiquewhite;
+    height: 300px;
+    font-size: 30px;
+    color: deeppink(17,46,71);
+    text-align: center;
+    background-image: url(https://mirpozitiva.ru/wp-content/uploads/2019/11/1478873198_podsolnuhi_leto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    text-shadow: 2px 2px 2px;
+}
+header h1{
+    font-family: "Bona Nova SC", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.container{
+    background-color: rgb(223, 214, 178);
+    padding: 30px;
+}
+.block1{
+    font-size: 18px;
+}
+.block2{
+    text-align: center;
+}
+.block3{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    background-color: rgb(60, 102, 17);
+    color: rgb(228, 228, 228);
+    padding: 55px;
+    text-align: center;
+}
+.social img{
+    width: 70px;
+    padding-left: 10px;
+}
+.social{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
